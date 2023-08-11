@@ -19,7 +19,7 @@ const tempo = setInterval(function time(){
     let dataFinal = new Date("1 January 2024") - sistema
     let contDReg = Math.floor(dataFinal/(1000 * 60 * 60 * 24))
     let contMes = Math.floor(dataFinal/(1000 * 60 * 60 * 24)/30)
-    
+
     if(hora < 10){
         horas = "0"+hora
     }
@@ -34,7 +34,7 @@ const tempo = setInterval(function time(){
     }
     ano.textContent = anos
     diaRestante.textContent = contDReg
-    mes.textContent = contMes
+    // mes.textContent = contMes
     hr.textContent = 23-hora
     min.textContent = 59-minuto
     seg.textContent = 59-segundo
