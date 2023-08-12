@@ -69,7 +69,7 @@ body{
 }
 #relogio div{
     width: 800px;
-    padding: 0px 8px;
+    padding: 0px 6px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ body{
     padding: 0px 5px;
     width: 200%;
     height: 100%;
-    font-size: 90%;
+    font-size: 80%;
 }
 @font-face{
     font-family: relogio;
