@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(pink, cyan);
+    background: url(/images/fireworks-6-usagif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
