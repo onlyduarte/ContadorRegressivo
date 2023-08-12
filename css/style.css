@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(/images/fireworks-6-usagif.gif);
+    background: url("../images/fireworks-6-usagif.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -94,11 +94,12 @@ body{
     padding: 0px 5px;
     width: 200%;
     height: 100%;
+    font-weight: bold;
     font-size: 80%;
 }
 @font-face{
     font-family: relogio;
-    src: url("/font/fonteRelogio.TTF");
+    src: url("../font/fonteRelogio.TTF");
 }
 .title{
     color: White;
