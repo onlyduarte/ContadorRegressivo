@@ -7,7 +7,7 @@ body{
     background: url("../images/fireworks-6-usagif.gif");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
